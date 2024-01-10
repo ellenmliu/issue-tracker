@@ -4,7 +4,7 @@ import prisma from "@/prisma/client";
 import IssueStatusBadge from "@/app/components/IssueStatusBadge";
 import IssueActions from "@/app/issues/IssueActions";
 
-const IssueDetailPage = async() => {
+const IssuePage = async() => {
   const issues = await prisma.issue.findMany();
 
   return (
@@ -39,4 +39,4 @@ const IssueDetailPage = async() => {
   )
 }
 
-export default IssueDetailPage
+export default IssuePage
