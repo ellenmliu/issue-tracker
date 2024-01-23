@@ -20,7 +20,7 @@ const AssigneeSelect = () => {
 
   return (
     <Select.Root>
-      <Select.Trigger aria-placeholder="Assign..." />
+      <Select.Trigger placeholder="Assign..." />
       <Select.Content>
         <Select.Group>
           <Select.Label>Suggestions</Select.Label>
